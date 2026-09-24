@@ -6,27 +6,30 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="">
+    <fieldset>
+        <legend>Personal Information</legend>
     <label for="name">FirstName:</label><br>
-    <input type="text" id="name" name="name">
+    <input type="text" id="name" name="name" value="John" required >
     <br>    
     <label for="lastname">LastName:</label><br>
-    <input type="text" id="lastname" name="lastname">
+    <input type="text" id="lastname" name="lastname" required>
     <br>
     <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email" name="email" size="40" required>
     <br>
     <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password">
+    <input type="password" id="password" name="password" placeholder="password">
     <br>
     <label for="gender">Gender:</label><br>
-    <input type="radio" id="gender" name="gender" value="male"> Male
-    <input type="radio" id="gender" name="gender" value="female"> Female
-    <input type="radio" id="gender" name="gender" value="crossiant"> Crossiant
+    <input type="radio" id="gender" name="gender" value="male" required> Male
+    <input type="radio" id="gender" name="gender" value="female" required> Female
+    <input type="radio" id="gender" name="gender" value="crossiant" required> Crossiant
     <br>
     <label for="hobbies">Hobbies:</label><br>
     <input type="checkbox" id="hobbies" name="hobbies" value="reading"> Reading 
-    <input type="checkbox" id="hobbies" name="hobbies" value="travelling"> Travelling  
-    <input type="checkbox" id="hobbies" name="hobbies" value="sports"> Sports
+    <input type="checkbox" id="hobbies" name="hobbies" value="travelling" > Travelling  
+    <input type="checkbox" id="hobbies" name="hobbies" value="sports" > Sports
     <br>  
     <label for="pet">Choose a pet:</label><br> 
     <select name="pet" id="pet">
@@ -34,9 +37,8 @@
         <option value="cat">Cat</option>
         <option value="bird">Bird</option>
     </select><br>
-
-    <textarea name="message" id="message" rows="30" cols="50"></textarea><br>  
-    <input type="submit" name="submit" id="submit">
-
+      
+    </form><textarea name="message" id="message" rows="30" cols="50" maxlength="50"></textarea><br><input type="submit" name="submit" id="submit">
+    </fieldset>  
 </body>
 </html>
