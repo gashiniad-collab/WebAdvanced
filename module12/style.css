@@ -1,0 +1,49 @@
+h1{
+    color: blue;
+    letter-spacing: 0.5cm;
+    background-color: thistle;
+    word-spacing: 35px;
+    text-align: center;
+}
+h2{
+    text-decoration: overline;
+}
+h3{
+    text-decoration: underline;
+}
+h4{
+    text-decoration: line-through;
+}
+p {
+    text-indent: 50px;
+    text-align: center;
+   /* writing-mode: vertical-rl; */
+}
+.element {
+    color: red!important;
+    font-size: 20px;
+
+}
+#normaltext{
+    color: black;
+    font-size: 16px;
+}
+#italictext{
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+}
+#boldtext{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: hotpink;
+}
