@@ -1,0 +1,40 @@
+ul {
+    list-style-type: circle;
+    border: 2px solid rgb(53, 52, 52);
+}
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+    color: green;
+}
+ol {
+    background-color: rgb(201, 193, 193);
+    padding: 15px;
+}
+ol li {
+background-color: sandybrown;
+padding: 30px;
+margin-left: 30px;
+color: red;
+}
+table {
+    border-collapse: collapse;
+}
+td, th{
+    border: solid 1px black;
+    padding: 15px;
+}
+tbody tr:nth-child(odd) {
+    
+    background-color: rgb(179, 83, 139);
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(134, 124, 130);
+}
+div {
+    overflow: scroll;
+    background-color: skyblue;
+    width: 200px;
+    height: 150px;
+
+}
